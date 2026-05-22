@@ -1,11 +1,6 @@
 const locomotiveScroll = new LocomotiveScroll({
   lenisOptions: {
-    wrapper: document.querySelector(".scroll-container"),
-    smartphone: {
-      smooth: false,
-    },
-    tablet: {
-      smooth: false,
-    },
+    wrapper: document.querySelector(".scroll-controller"),
+    content: document.querySelector(".scroll-controller"),
   },
 });
